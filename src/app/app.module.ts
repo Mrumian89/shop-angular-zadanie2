@@ -7,7 +7,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { ShopComponent } from './shop/shop.component';
 import { ShippingComponent } from './shop/shipping/shipping.component';
 import { ProductsComponent } from './shop/products/products.component';
+import { UsersComponent } from './shop/users/users.component';
 import { EditorComponent } from './shop/products/editor/editor.component';
+import { EditorComponent as EditorComponentUsers } from './shop/users/editor/editor.component'
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
@@ -18,7 +20,9 @@ import {HttpClientModule} from '@angular/common/http';
     ShopComponent,
     ShippingComponent,
     ProductsComponent,
-    EditorComponent
+    UsersComponent,
+    EditorComponent,
+    EditorComponentUsers
   ],
   imports: [
     BrowserModule,
